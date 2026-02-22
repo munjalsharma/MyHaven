@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>MyHaven - Meet the Team</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800;900&family=Noto+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#4f30e8",
+                    "primary-hover": "#3c23bf",
+                    "primary-soft": "#f3efff",
+                    "background-light": "#fcfcfd",
+                    "background-dark": "#111121",
+                    "surface-light": "#ffffff",
+                    "surface-dark": "#1a1a32",
+                    "text-main": "#1e1e2e",
+                    "text-muted": "#6b7280",
+                },
+                fontFamily: {
+                    "display": ["Lexend", "sans-serif"],
+                    "body": ["Noto Sans", "sans-serif"],
+                },
+                borderRadius: {"DEFAULT": "1rem", "lg": "1.5rem", "xl": "2rem", "2xl": "3rem", "full": "9999px"},
+                boxShadow: {
+                    'soft': '0 4px 20px -2px rgba(79, 48, 232, 0.08)',
+                    'glow': '0 0 15px rgba(79, 48, 232, 0.3)',
+                }
+            },
+        },
+    }
+</script>
+<style>
+    body {
+        font-family: 'Noto Sans', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Lexend', sans-serif;
+    }
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+        background: #f6f6f8;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #d1d5db;
+        border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #4f30e8;
+    }
+    .light-mode-forced {
+        background-color: #fcfcfd;
+        color: #1e1e2e;
+    }
+</style>
+</head>
+<body class="bg-background-light text-text-main overflow-x-hidden selection:bg-primary selection:text-white light-mode-forced">
+<nav class="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex items-center gap-3">
+<div class="flex items-center justify-center size-10 rounded-full bg-primary-soft text-primary">
+<span class="material-symbols-outlined text-2xl">spa</span>
+</div>
+<span class="text-xl font-bold tracking-tight text-text-main font-display">MyHaven</span>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-medium text-text-muted hover:text-primary transition-colors" href="index.html">Home</a>
+<a class="text-sm font-medium text-text-muted hover:text-primary transition-colors" href="index.html#features">Features</a>
+<a class="text-sm font-medium text-text-muted hover:text-primary transition-colors" href="#team">Team</a>
+<div class="h-4 w-px bg-gray-200"></div>
+<a href="chatbot.html">
+<button class="bg-primary hover:bg-primary-hover text-white text-sm font-bold px-6 py-2.5 rounded-full transition-all transform hover:scale-105 shadow-lg shadow-primary/25">
+Start Chat
+</button>
+</a>
+</div>
+<div class="md:hidden flex items-center">
+<button class="text-gray-500 hover:text-primary p-2">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+
+<div class="relative w-full pt-20 pb-16 flex items-center justify-center overflow-hidden bg-background-light">
+<div class="absolute inset-0 w-full h-full bg-background-light pointer-events-none">
+<div class="absolute top-[-5%] left-[20%] w-[500px] h-[500px] bg-primary-soft rounded-full blur-[80px] opacity-60"></div>
+<div class="absolute bottom-[10%] right-[10%] w-[400px] h-[400px] bg-blue-50/80 rounded-full blur-[90px]"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-100 shadow-sm mb-6">
+<span class="material-symbols-outlined text-primary text-sm">school</span>
+<span class="text-xs font-medium text-gray-600 uppercase tracking-wider">Maitreyi College Students' Initiative</span>
+</div>
+<h1 class="text-4xl md:text-6xl font-black text-text-main leading-[1.1] mb-6 tracking-tight max-w-4xl">
+Meet the Team Behind <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">MyHaven</span>
+</h1>
+<p class="text-lg text-gray-500 mb-8 max-w-2xl font-light leading-relaxed">
+A passionate group of students and faculty from Maitreyi College dedicated to creating a safe digital space for mental wellness.
+</p>
+</div>
+</div>
+
+<section class="py-12 bg-white border-b border-gray-100" id="affiliation">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<div class="mb-8">
+<h2 class="text-2xl font-bold text-text-main">Our Affiliation</h2>
+<div class="w-16 h-1 bg-primary rounded-full mx-auto mt-4"></div>
+</div>
+<div class="flex flex-col items-center justify-center gap-6">
+<div class="w-32 h-32 rounded-full bg-white border-4 border-primary-soft flex items-center justify-center shadow-soft p-4">
+<span class="material-symbols-outlined text-6xl text-primary">school</span>
+</div>
+<div>
+<h3 class="text-xl font-bold text-text-main">Maitreyi College</h3>
+<p class="text-gray-500 text-sm mt-2 max-w-md mx-auto">This project was developed as part of an academic initiative to leverage technology for social good.</p>
+</div>
+</div>
+</div>
+</section>
+
+<section class="py-24 bg-background-light relative overflow-hidden" id="team">
+<div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="mb-20">
+<div class="text-center mb-12">
+<span class="bg-primary-soft text-primary px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Guidance</span>
+<h2 class="text-3xl font-bold text-text-main">Faculty Mentor</h2>
+</div>
+<div class="flex justify-center">
+<div class="max-w-md w-full bg-white border border-gray-100 p-8 rounded-2xl text-center shadow-soft hover:shadow-lg transition-all duration-300 relative overflow-hidden group">
+<div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary to-blue-400"></div>
+<div class="w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white shadow-md group-hover:scale-105 transition-transform duration-300">
+<div class="w-full h-full bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
+<span class="material-symbols-outlined text-5xl text-primary">woman</span>
+</div>
+</div>
+<h3 class="text-2xl font-bold text-text-main mb-1">Dr. Veena Guriani</h3>
+<p class="text-primary font-medium mb-4">Professor, Computer Science</p>
+<div class="bg-gray-50 rounded-xl p-4 mb-6">
+<p class="text-gray-500 text-sm italic">"Guiding these brilliant minds to build something meaningful has been an incredible journey."</p>
+</div>
+<div class="flex justify-center gap-3">
+<a class="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-lg">school</span></a>
+<a class="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center text-gray-400 hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-lg">mail</span></a>
+</div>
+</div>
+</div>
+</div>
+
+<div>
+<div class="text-center mb-12">
+<span class="bg-blue-50 text-blue-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-4 inline-block">Development Team</span>
+<h2 class="text-3xl font-bold text-text-main">Student Developers</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="bg-white border border-gray-100 p-6 rounded-2xl flex flex-col items-center text-center hover:shadow-soft hover:-translate-y-2 transition-all duration-300 group">
+<div class="w-24 h-24 mb-4 rounded-full overflow-hidden border-2 border-primary-soft group-hover:border-primary transition-colors p-1">
+<div class="w-full h-full rounded-full bg-gradient-to-br from-blue-100 to-indigo-100 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary">person</span>
+</div>
+</div>
+<h3 class="text-xl font-bold text-text-main">Munjal Sharma</h3>
+<p class="text-sm text-gray-400 font-medium mb-4">B.Sc. Computer Science (Hons)</p>
+<div class="w-full border-t border-gray-100 my-4"></div>
+<div class="space-y-3 w-full text-left">
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">terminal</span>
+<span class="text-gray-600">Frontend & UI/UX</span>
+</div>
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">calendar_month</span>
+<span class="text-gray-600">4th Year</span>
+</div>
+</div>
+</div>
+
+<div class="bg-white border border-gray-100 p-6 rounded-2xl flex flex-col items-center text-center hover:shadow-soft hover:-translate-y-2 transition-all duration-300 group">
+<div class="w-24 h-24 mb-4 rounded-full overflow-hidden border-2 border-primary-soft group-hover:border-primary transition-colors p-1">
+<div class="w-full h-full rounded-full bg-gradient-to-br from-pink-100 to-rose-100 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary">person</span>
+</div>
+</div>
+<h3 class="text-xl font-bold text-text-main">Deepa</h3>
+<p class="text-sm text-gray-400 font-medium mb-4">B.Sc. (Prog) Physical Science with Computer Science</p>
+<div class="w-full border-t border-gray-100 my-4"></div>
+<div class="space-y-3 w-full text-left">
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">smart_toy</span>
+<span class="text-gray-600">Sentiment Analysis</span>
+</div>
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">calendar_month</span>
+<span class="text-gray-600">4th Year</span>
+</div>
+</div>
+</div>
+
+<div class="bg-white border border-gray-100 p-6 rounded-2xl flex flex-col items-center text-center hover:shadow-soft hover:-translate-y-2 transition-all duration-300 group">
+<div class="w-24 h-24 mb-4 rounded-full overflow-hidden border-2 border-primary-soft group-hover:border-primary transition-colors p-1">
+<div class="w-full h-full rounded-full bg-gradient-to-br from-purple-100 to-violet-100 flex items-center justify-center">
+<span class="material-symbols-outlined text-4xl text-primary">person</span>
+</div>
+</div>
+<h3 class="text-xl font-bold text-text-main">Nikita Pal</h3>
+<p class="text-sm text-gray-400 font-medium mb-4">B.Sc. (Prog) Physical Science with Computer Science</p>
+<div class="w-full border-t border-gray-100 my-4"></div>
+<div class="space-y-3 w-full text-left">
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">psychology</span>
+<span class="text-gray-600">Emotion Analysis</span>
+</div>
+<div class="flex items-center gap-3 text-sm">
+<span class="material-symbols-outlined text-primary text-lg">calendar_month</span>
+<span class="text-gray-600">4th Year</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer class="bg-white border-t border-gray-100 pt-16 pb-8">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-2 mb-4">
+<div class="flex items-center justify-center size-8 rounded-full bg-primary-soft text-primary">
+<span class="material-symbols-outlined text-lg">spa</span>
+</div>
+<span class="text-xl font-bold text-text-main font-display">MyHaven</span>
+</div>
+<p class="text-gray-500 max-w-sm mb-6">
+Empowering students and young adults with AI-driven mental health support. Safe, secure, and always here for you.
+</p>
+<div class="bg-red-50 border border-red-100 rounded-lg p-4 inline-block max-w-md">
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-red-500 mt-1">emergency</span>
+<div>
+<h4 class="text-red-500 font-bold text-sm uppercase mb-1">In Crisis?</h4>
+<p class="text-gray-600 text-xs">If you or someone you know is in immediate danger, please call 911 or visit your nearest emergency room. Call 988 for the Suicide & Crisis Lifeline.</p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-text-main font-bold mb-6">Platform</h4>
+<ul class="space-y-4">
+<li><a class="text-gray-500 hover:text-primary transition-colors text-sm" href="index.html#features">Features</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-text-main font-bold mb-6">Company</h4>
+<ul class="space-y-4">
+<li><a class="text-gray-500 hover:text-primary transition-colors text-sm" href="index.html#about">About Us</a></li>
+<li><a class="text-gray-500 hover:text-primary transition-colors text-sm" href="team.html">Team</a></li>
+<li><a class="text-gray-500 hover:text-primary transition-colors text-sm" href="chatbot.html">Chat</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-gray-400 text-sm">© 2023 MyHaven Wellness Inc. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="text-gray-400 hover:text-primary text-sm" href="#">Privacy Policy</a>
+<a class="text-gray-400 hover:text-primary text-sm" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,13 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-dotenv==1.0.1
+groq
+torch
+transformers==4.43.3
+sentencepiece==0.2.0
+numpy
+pandas
+seaborn
+plotly
+scikit-learn
+joblib
